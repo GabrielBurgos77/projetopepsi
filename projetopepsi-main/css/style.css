@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:100,200,300,400,500,600,700,800,900wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #0062be;
+    margin: 0px auto;
+    padding: 0px 100px 10px 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li a{
+    margin-left: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo{
+    margin-top: 20px;
+    max-width: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textbox{
+    margin-top: 60px;
+    color: white;
+    max-width: 600px;
+    line-height: 1.5em;
+}
+
+.textbox h2{
+    font-size: 4em;
+    font-weight: 900;
+    line-height: 1.5em;
+    text-transform: uppercase;
+}
+
+.textbox h2 span{
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.textbox p{
+    font-weight: 200;
+}
+
+.textbox a{
+    display: inline-block;
+    color: black;
+    font-weight: 600;
+    background-color: white;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.imgbox{
+    width: 600px;
+    display: flex;
+    margin-top: 55px;
+    padding-left: 50px;
+    padding-right: 80px;
+    justify-content: flex-end;
+}
+
+.imgbox img{
+    max-height: 400px;
+    max-width: 220px;
+}
+
+.thumb{
+    position: fixed;
+    left: 50%;
+    bottom: 0px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.thumb li{
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0,5s;
+}
+
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    width: 40px;
+}
+
+.socials{
+    position: fixed;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socials li a{
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
